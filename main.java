@@ -169,6 +169,25 @@ class ClassName {
                 System.out.println("Sunday");
                 break;
         }
+
+        // Loops
+        // while
+        int i = 1;
+        while (i <= 5) {
+            System.out.println("While " + i);
+            i++;
+        }
+        // do while
+        int j = 1;
+        do {
+            System.out.println("Do While " + j);
+            j++;
+        } while (j <= 5);
+
+        // for loop
+        for (int k = 1; k <= 5; k++) {
+            System.out.println("For" + k);
+        }
     }
 }
 
