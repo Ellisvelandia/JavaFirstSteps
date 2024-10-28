@@ -175,8 +175,9 @@ class ClassName {
         int i = 1;
         while (i <= 5) {
             System.out.println("While " + i);
-            i++;
+            i++; // increment operator i = i + 1
         }
+
         // do while
         int j = 1;
         do {
@@ -185,8 +186,17 @@ class ClassName {
         } while (j <= 5);
 
         // for loop
+        /*
+         * For loop is used to iterate over a block of code a fixed number of times
+         * for (initialization; condition; increment/decrement)
+         * for (statement1 ; statement2 ; statement3)
+         */
         for (int k = 1; k <= 5; k++) {
             System.out.println("For" + k);
+        }
+
+        for (int l = 0; l <= 5; l++) {
+            System.out.println("The value of l is " + l);
         }
     }
 }
